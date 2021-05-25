@@ -99,10 +99,10 @@ function App() {
               ) : (
                 "No Tasks To Show"
               )}
-              <Footer />
             </>
           )} />
         <Route path='/about' component={About} />
+      <Footer />
       </div>
     </Router>
   );
